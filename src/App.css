@@ -1,0 +1,651 @@
+.topbar {
+  background: #fff !important;
+  border-bottom: 2px solid #171717;
+  color: #111 !important;
+}
+
+.topbar-content {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 68px;
+  padding: 0 24px !important;
+}
+
+.brand-mark {
+  align-items: center;
+  background: #fff;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  margin-right: 12px;
+  width: 48px;
+}
+
+.brand-mark img {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.brand-name {
+  color: #111;
+  font-size: 18px !important;
+  font-weight: 750 !important;
+  letter-spacing: -0.25px !important;
+}
+
+.topbar-spacer {
+  flex: 1;
+}
+
+.topbar .MuiChip-root {
+  border-color: #e1e9e7;
+  color: #586966;
+  font-size: 12px;
+}
+
+.topbar .MuiChip-icon {
+  color: #167c72;
+  font-size: 16px;
+}
+
+.page-container {
+  padding-bottom: 36px;
+  padding-top: 40px;
+}
+
+.page-heading {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  color: #167c72;
+  font-size: 11px !important;
+  font-weight: 750 !important;
+  letter-spacing: 1.15px !important;
+  line-height: 1.5 !important;
+}
+
+.page-heading h1 {
+  color: #1b2928;
+  font-size: 30px;
+  font-weight: 720;
+  letter-spacing: -0.8px;
+  margin-top: 3px;
+}
+
+.step-indicator {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  padding-bottom: 5px;
+}
+
+.step-indicator > span:not(.step-line) {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  height: 25px;
+  justify-content: center;
+  width: 25px;
+}
+
+.step-active {
+  background: #167c72;
+  color: white;
+}
+
+.step-done {
+  background: #e1f3ed;
+  color: #167c72;
+}
+
+.step-inactive {
+  background: #e9eeed;
+  color: #798582;
+}
+
+.step-line {
+  background: #dce5e2;
+  height: 1px;
+  width: 22px;
+}
+
+.step-indicator .MuiTypography-root {
+  margin-left: 4px;
+  white-space: nowrap;
+}
+
+.content-grid {
+  align-items: start;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.form-card,
+.preview-page {
+  border: 2px solid #1d2524;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+.form-card {
+  padding: 28px;
+}
+
+.elgu-header {
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.elgu-header img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.section-icon {
+  align-items: center;
+  background: #fff;
+  border: 2px solid #006b61;
+  border-radius: 5px;
+  color: #006b61;
+  display: flex;
+  height: 42px;
+  justify-content: center;
+  width: 42px;
+}
+
+.form-section {
+  margin-top: 24px;
+}
+
+.field-label {
+  color: #243633;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.commitment-section .field-label {
+  color: #111;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.commitment-field .MuiOutlinedInput-root {
+  background: #f7faf9;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 1.7;
+}
+
+.commitment-field .MuiOutlinedInput-notchedOutline {
+  border-color: #17201e !important;
+  border-width: 2px !important;
+}
+
+.commitment-field .MuiInputBase-input.Mui-disabled {
+  opacity: 1;
+  -webkit-text-fill-color: #111;
+}
+
+.form-card .MuiOutlinedInput-root {
+  background: #fff;
+  border-radius: 9px;
+  font-size: 14px;
+}
+
+.form-card .MuiOutlinedInput-notchedOutline {
+  border-color: #3f4947;
+}
+
+.form-card .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #9fbab4;
+}
+
+.form-card .MuiInputBase-input {
+  padding: 12px 14px;
+}
+
+.form-card textarea.MuiInputBase-input {
+  text-align: justify;
+}
+
+.helper-text {
+  display: block;
+  font-size: 11px !important;
+  margin-top: 6px !important;
+}
+
+.device-chip {
+  background: #f0f7f5 !important;
+  color: #267269 !important;
+  font-size: 11px !important;
+}
+
+.device-chip .MuiChip-icon {
+  color: #167c72;
+  font-size: 15px;
+}
+
+.signature-canvas-wrap {
+  background: #fff;
+  border: 2px solid #303836;
+  border-radius: 4px;
+  height: 164px;
+  overflow: hidden;
+  position: relative;
+}
+
+.signature-canvas {
+  cursor: crosshair;
+  display: block;
+  height: 100%;
+  touch-action: none;
+  width: 100%;
+}
+
+.signature-placeholder {
+  color: #9aa8a5;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.acknowledgment {
+  align-items: flex-start;
+  border-top: 1px solid #707876;
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+.acknowledgment input {
+  accent-color: #167c72;
+  flex: 0 0 auto;
+  height: 16px;
+  margin: 2px 0 0;
+  width: 16px;
+}
+
+.acknowledgment label {
+  color: #586966;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.complete-button {
+  border-radius: 9px !important;
+  margin-top: 20px !important;
+  min-height: 46px;
+}
+
+.complete-button.Mui-disabled {
+  background: #dce7e4;
+  color: #879692;
+}
+
+.button-hint {
+  display: block;
+  margin-top: 9px !important;
+}
+
+.side-column {
+  min-width: 0;
+}
+
+.signers-card {
+  background: #fff !important;
+}
+
+.signers-card .MuiCardContent-root {
+  padding: 23px;
+}
+
+.preview-label {
+  color: #76908b;
+  font-size: 10px !important;
+  font-weight: 750 !important;
+  letter-spacing: 1.05px !important;
+}
+
+.signer-count {
+  color: #26443f;
+  font-size: 25px !important;
+  font-weight: 750 !important;
+  line-height: 1.25 !important;
+}
+
+.signer-name-list {
+  margin-top: 15px;
+  max-height: 220px;
+  overflow: auto;
+}
+
+.signer-name-row {
+  align-items: center;
+  display: flex;
+  gap: 9px;
+}
+
+.signer-name-row > span,
+.signature-number {
+  align-items: center;
+  background: #e7f4f1;
+  border-radius: 50%;
+  color: #167c72;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 11px;
+  font-weight: 700;
+  height: 27px;
+  justify-content: center;
+  width: 27px;
+}
+
+.preview-button {
+  margin-top: 18px !important;
+}
+
+.preview-page {
+  background: #fff;
+  max-width: none;
+  overflow: hidden;
+  width: 100%;
+}
+
+.preview-commitment {
+  background: #fff;
+  padding: 30px 34px 26px;
+}
+
+.preview-statement {
+  color: #29413d;
+  font-family: Georgia, serif !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  line-height: 1.55 !important;
+  margin-top: 12px !important;
+  overflow-wrap: anywhere;
+  text-align: justify;
+}
+
+.preview-commitment .MuiChip-root {
+  background: #e5f5ef;
+  color: #167c72;
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.preview-commitment .MuiChip-icon {
+  color: #167c72;
+  font-size: 17px;
+}
+
+.signature-list {
+  padding: 27px 34px;
+}
+
+.signature-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 20px;
+}
+
+.signed-person-card {
+  background: #fff;
+  border: 1px solid #303836;
+  border-radius: 4px !important;
+}
+
+.signed-person-card .MuiCardContent-root {
+  padding: 20px 22px !important;
+}
+
+.signature-entry {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+}
+
+.remove-signature-button {
+  flex: 0 0 auto;
+  margin-top: -5px !important;
+}
+
+.signature-block {
+  max-width: 360px;
+  min-width: 0;
+  width: 100%;
+}
+
+.signed-person-name {
+  color: #26443f;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin-top: 8px !important;
+  overflow-wrap: anywhere;
+}
+
+.signed-person-date {
+  display: block;
+  margin-top: 2px !important;
+}
+
+.signature-image {
+  border-bottom: 1px solid #303836;
+  height: 78px;
+  width: 100%;
+}
+
+.signature-image img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: left bottom;
+  width: 100%;
+}
+
+.preview-actions {
+  border-top: 1px solid #303836;
+  padding: 20px 34px;
+}
+
+.preview-actions .MuiButton-root {
+  min-height: 42px;
+}
+
+.device-note {
+  align-items: flex-start;
+  background: #f0f7fa !important;
+  border-color: #dcebf0 !important;
+  border-radius: 12px !important;
+  color: #47636b !important;
+  font-size: 12px;
+  line-height: 1.55;
+  padding: 10px 12px !important;
+}
+
+.device-note .MuiAlert-icon {
+  color: #4c8993;
+  margin-right: 10px;
+  padding: 4px 0;
+}
+
+.device-note .MuiAlert-message {
+  padding: 3px 0;
+}
+
+.device-note .MuiTypography-body2 + .MuiTypography-body2 {
+  margin-top: 4px;
+}
+
+.privacy-note {
+  align-items: flex-start;
+  display: flex;
+  gap: 9px;
+  padding: 3px 4px;
+}
+
+.privacy-note .MuiSvgIcon-root {
+  color: #81918d;
+  flex: 0 0 auto;
+}
+
+.privacy-note .MuiTypography-root {
+  line-height: 1.55;
+}
+
+.page-footer {
+  border-top: 1px solid #e9eeec;
+  margin-top: 32px;
+  padding-top: 17px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .page-container {
+    padding-top: 30px;
+  }
+
+  .content-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .signature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .side-column {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .topbar-content {
+    min-height: 60px;
+    padding: 0 16px !important;
+  }
+
+  .brand-mark {
+    height: 40px;
+    margin-right: 9px;
+    width: 40px;
+  }
+
+  .brand-name {
+    font-size: 15px !important;
+  }
+
+  .topbar .MuiChip-root {
+    font-size: 0;
+    width: 34px;
+  }
+
+  .topbar .MuiChip-label {
+    display: none;
+  }
+
+  .page-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 25px;
+  }
+
+  .page-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 17px;
+    margin-bottom: 21px;
+  }
+
+  .page-heading h1 {
+    font-size: 26px;
+  }
+
+  .step-indicator {
+    align-self: flex-end;
+    margin-top: -43px;
+  }
+
+  .step-indicator .MuiTypography-root {
+    display: none;
+  }
+
+  .form-card {
+    padding: 20px 17px;
+  }
+
+  .side-column {
+    display: flex;
+  }
+
+  .preview-commitment,
+  .signature-list {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  .preview-statement {
+    font-size: 19px !important;
+  }
+
+  .signature-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .preview-actions {
+    padding: 16px 19px;
+  }
+
+  .signature-entry {
+    gap: 12px;
+  }
+}
+
+@media print {
+  body,
+  #root {
+    background: #fff !important;
+  }
+
+  .topbar,
+  .page-heading,
+  .page-footer,
+  .preview-actions {
+    display: none !important;
+  }
+
+  .remove-signature-button {
+    display: none !important;
+  }
+
+  .page-container {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  .preview-page {
+    border: 0;
+    box-shadow: none !important;
+    margin: 0;
+    max-width: none;
+  }
+}
